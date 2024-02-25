@@ -48,4 +48,14 @@ public class SumasRienman {
             return 1.0;
             
             }
+            
+            public void print(){
+                for(int i = 0; i < W.length; i++){
+                    System.out.println("i       |Wi|        |dx|        |fi|");
+                    for( i=0; i < W.length; i++){
+                        System.out.println("i       " +W[i] + "        1i1" + dx[i] + "     |      " + fw[i]);
+                        System.out.println("Suma"+ suma);
+                    }
+                }
+            }
 }

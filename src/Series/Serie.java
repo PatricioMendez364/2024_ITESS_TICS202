@@ -8,7 +8,7 @@ TI23110156
 patoloco22.34@gmail.com
 Calculo de series
 */
-package ci.unidad1.aproximation;
+package Series;
 
 public class Serie {
     private int iIni;
@@ -48,4 +48,3 @@ public class Serie {
     }
     
 }
-

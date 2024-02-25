@@ -34,7 +34,7 @@ public class FunctionAproximation {
        area = 0.0;
         for (int i= 0; i <=n; i++){
            x[i] = xIni + i*dx;
-           fx[i] = 1/ x[i];
+           fx[i] = 1/(x[i]*x[i]);
            area = area + fx[i] * dx;
         }
     }

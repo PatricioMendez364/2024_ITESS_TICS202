@@ -8,7 +8,7 @@ TI23110156
 patoloco22.34@gmail.com
 Calculo de series TEST
 */
-package ci.unidad1.aproximation;
+package Series;
 
 public class SerieTest {
     public static void main(String[] args) {
